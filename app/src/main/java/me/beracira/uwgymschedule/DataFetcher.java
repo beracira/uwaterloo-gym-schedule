@@ -5,5 +5,5 @@ package me.beracira.uwgymschedule;
  */
 
 public class DataFetcher {
-    
+
 }
