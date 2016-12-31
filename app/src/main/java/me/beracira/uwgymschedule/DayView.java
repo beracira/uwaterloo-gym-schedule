@@ -53,7 +53,7 @@ public class DayView extends AppCompatActivity {
                                 Log.d("DayView", e.toString());
                             }
                             int eventNumber = Integer.parseInt(scanner.nextLine());
-                            if (selectedDate.equals(curDate)) {
+                            if (selectedDate != null && selectedDate.equals(curDate)) {
                                 for (int i = 0; i < eventNumber; ++i) {
                                     String temp = scanner.nextLine() + scanner.nextLine() + "\n"
                                             + scanner.nextLine() + "\n";
